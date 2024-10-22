@@ -1,0 +1,5 @@
+1.使用Android studio打开工程
+2.在Android Studio中，点击工具栏上的Build菜单。
+3.选择Build Bundle(s) / APK(s)，然后选择Build APK(s)或Build Bundle(s)。
+4.Android Studio将开始编译项目，编译完成后会在Build窗口中显示结果。
+5.生成的apk在：根目录/build/outputs/apk中

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DiagnosisKit</string>
+    <string name="app_name_powerthermal">DiagnosisKit 功耗异常模拟</string>
+    <string name="app_name_performance">DiagnosisKit 性能故障模拟</string>
+    <string name="app_name_systempressure">DiagnosisKit 系统压力模拟</string>
+    <string name="app_name_reliability">DiagnosisKit 稳定性故障模拟</string>
+    <string name="app_name_consumptionanaly">DiagnosisKit 功耗拆解数据</string>
+    <string name="app_name_dex2oat">DiagnosisKit DEX2OAT查询</string>
+    <string name="app_name_listswipe">DiagnosisKit 列表滑动丢帧模拟</string>
+    <string name="app_name_firingslow">DiagnosisKit Activity启动超时模拟</string>
+</resources>

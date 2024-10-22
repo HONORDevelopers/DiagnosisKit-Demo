@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IntroductionActivity">
+
+    <ImageView
+        android:id="@+id/introduction_image_icon"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/diagkit"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/text_welcome_use"
+        android:text="欢迎使用"
+        android:gravity="center"
+        android:textSize="55px"
+        android:textColor="#808080"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/text_title"
+        android:text="Diagnosis Kit"
+        android:gravity="center"
+        android:textSize="85px"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/text_content"
+        android:text="故障诊断是应用开发不可或缺的基础能力，诊断能力直接影响软件开发效率和应用质量。诊断服务（Diagnosis Kit）提供了系统和应用的全量诊断数据，助力应用故障定位效率提升。"
+        android:gravity="left"
+        android:textSize="55px"
+        android:textColor="#808080"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/introduction_start_experience"
+        android:text="             开 始 体 验             "
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:textSize="55px"
+        android:textColor="@color/black"
+        />
+
+
+</LinearLayout>

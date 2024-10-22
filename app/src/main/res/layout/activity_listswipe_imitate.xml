@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:scrollbarStyle="insideOverlay"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/et_text_laginfo_show"
+                android:text=""
+                android:gravity="left"
+                android:textSize="45px"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"/>
+        </RelativeLayout>
+
+    </ScrollView>
+    <ListView
+        android:id="@+id/lv_demo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+</LinearLayout>
